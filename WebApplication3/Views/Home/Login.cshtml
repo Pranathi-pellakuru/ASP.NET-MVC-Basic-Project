@@ -1,0 +1,36 @@
+@model UserAuthentication
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+@{
+    var returnUrl = ViewData["ReturnUrl"] as string;
+    var error = TempData["Error"] as string;
+}
+
+<h2>Login!!</h2>
+@if(!string.IsNullOrEmpty(error))
+{
+    <h2 class="alert-danger"> @error</h2>
+}
+<form action="/login?ReturnUrl=@System.Net.WebUtility.UrlEncode(returnUrl)" method="post">
+    <div class="border p-3 mt-4">
+             <div class="row pb-2">
+                 <h2 class="text text-primary">Login</h2>
+                 <hr/>
+             </div>
+             <div class="mb-3">
+                 <label asp-for="UserName"></label>
+                 <input asp-for="UserName" class="form-control"/>
+                 <span asp-validation-for="UserName" class="text-danger"></span>
+             </div>
+             <div class="mb-3">
+                 <label asp-for="Password"></label>
+                 <input asp-for="Password" class="form-control"/>
+                 <span asp-validation-for="Password" class="text-danger"></span>
+             </div>
+             <button type="submit" class="btn btn-primary"> Login </button>
+         </div>
+</form>
+
+<a asp-controller="Home" asp-action="Register" >Register</a>

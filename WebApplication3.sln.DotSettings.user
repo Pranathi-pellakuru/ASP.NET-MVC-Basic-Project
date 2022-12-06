@@ -1,0 +1,20 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=E37C9E4B_002DB409_002D4A41_002D94AA_002D7F6FB1D6F899_002Ff_003Aappsettings_002Ejson/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6b7be2c9_002D446e_002D41c7_002D9eb9_002D1a4acbfd3691/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="LoginPOST_WhenCalled_LoginViewShouldRender" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.HomeTests.LoginPOST_WhenCalled_LoginViewShouldRender&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.CategoryTests.Create_WhenCalled_CreateACategoryInDataBase&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.HomeTests.RegisterPOST_WhenCalled_RedirectToTheMainUrl&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.HomeTests.Login_WhenCalled_ViewDataShouldStoreReturnURL&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.HomeTests.Login_WhenCalledWithNull_ViewDataShouldStoreDefaultUrlAsReturnURL&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.CategoryTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.HomeTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a8c2cd7d_002Db5dc_002D4c96_002Dae69_002D0c2aeaee0c50/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="HomeTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.HomeTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.CategoryTests.Create_WhenCalled_CreateViewShouldRender&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::65BB6158-F271-4884-9163-0B0850E0E15B::net6.0::WebApplicationUnitTests.CategoryTests.Create_WhenCalled_RedirectToIndex&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
